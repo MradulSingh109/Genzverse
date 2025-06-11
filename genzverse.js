@@ -19,13 +19,28 @@ $(document).ready(function () {
     })
 })
 
-$(document).ready(function() {
+$(document).ready(function () {
 
     $('#autoWidth').lightSlider({
-        autoWidth:true,
-        loop:true,
-        onSliderLoad: function() {
+        autoWidth: true,
+        loop: true,
+        onSliderLoad: function () {
             $('#autoWidth').removeClass('cS-hidden');
-        } 
-    });  
-  });
+        }
+    });
+});
+
+$(document).ready(function () {
+    $('.search').click(function () {
+        $('.searchmenu').addClass('searchactive');
+        // document.body.style.backgroundColor = "rgb(110, 99, 99)";
+    })
+})
+
+document.addEventListener('click', e => {
+
+    if(!searchmenu.contains(e.target) && !search.contains(e.target)){
+        searchmenu.classList.removeClass('searchactive')
+    }
+})
+

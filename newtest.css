@@ -23,7 +23,7 @@ body::before {
     height: 90%;
     transform: translateX(-50%);
     content: '';
-    background-image: url(images/bg.png);
+    /* background-image: url(images/bg.png); */
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top center;
@@ -38,6 +38,8 @@ body::before {
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    width: 100%;
+    height: 80px;
     /* position: fixed;
     z-index: 99;
     width: 100%; */
@@ -170,6 +172,34 @@ body::before {
 .rotate {
     transform: rotate(90deg);
 }
+
+.searchmenu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+    top: -80px;
+    position: fixed;
+    z-index: 4;
+    background-color: #fff;
+    display: none;
+}
+
+.searchmenu.searchactive{
+    top: 0;
+    display: block;
+}
+
+.searchmenu input{
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    padding-left: 20px;
+    background-color: none;
+}
+
 
 .banner {
     width: 100%;
