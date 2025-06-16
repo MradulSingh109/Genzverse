@@ -38,9 +38,10 @@ $(document).ready(function () {
 })
 
 document.addEventListener('click', e => {
-
+    const searchmenu = document.querySelector('.searchmenu');
+    const search = document.querySelector('.search');
+    
     if(!searchmenu.contains(e.target) && !search.contains(e.target)){
-        searchmenu.classList.removeClass('searchactive')
-    }
+        searchmenu.classList.remove('searchactive')
+    }
 })
-
