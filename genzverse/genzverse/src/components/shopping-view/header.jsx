@@ -75,7 +75,8 @@ function HeaderLeftContent({ setIsSheetOpen }) {
     };
 
     return (
-        <div className="flex flex-col mt-20">
+        <div>
+        <div className="flex flex-col mt-20 h-150">
             <Collapsible open={openCollapsible === 'catalog'} onOpenChange={() => handleCollapsibleChange('catalog')}>
                 <CollapsibleTrigger asChild>
                     <div className="flex flex-row pl-[30px] pr-[52px] pt-[11px] pb-[11px] items-center
@@ -124,6 +125,10 @@ function HeaderLeftContent({ setIsSheetOpen }) {
                 </CollapsibleContent>
             </Collapsible>
         </div>
+        <div className="flex flex-row pl-[30px] pr-[52px] pb-[11px]">
+        <HeaderRightContent />
+        </div>
+        </div>
     )
 }
 
@@ -170,7 +175,6 @@ function ShoppingHeader() {
                     <SheetContent side="left" className="w-100 max-w-xs">
                         <HeaderLeftContent setIsSheetOpen={setIsSheetOpen} />
 
-                        {/* <HeaderRightContent /> */}
                     </SheetContent>
                 </Sheet>
             </div>
