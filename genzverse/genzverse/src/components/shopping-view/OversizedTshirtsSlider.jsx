@@ -79,7 +79,7 @@ function OversizedTshirtsSlider() {
         <section className='py-12'>
             <div className='container mx-auto px-4'>
                 <h2 className='text-xl md:text-2xl md:ml-10 font-bold text-left mb-8'>
-                    Oversized T-shirts
+                    Best Seller
                 </h2>
                 <div className="overflow-hidden">
                     <div
