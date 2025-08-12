@@ -13,9 +13,9 @@ function ShoppingHome() {
             {/* ... Your banner code ... */}
             <div className="banner">
                 <div className="slider hover:cursor-pointer" style={{ '--quantity': 10 }}>
-                    <div onClick={() => navigate('/shop/product/687ba184726ec84942a5d816/bonkers-t-shirt')} className="item" style={{ '--position': 1 }}><img
-                        src="/assets/Bonkerscorner_Black-nirvana_oversized-tshirt6_960x_crop_center.webp" alt="Bonkers" /></div>
-                    <div onClick={() => navigate('/shop/product/687ba5b8726ec84942a5d854/gucci')} className="item" style={{ '--position': 2 }}><img src="/assets/download (1).jpeg" alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8ed83affaa4f6976fd05/itachi')} className="item" style={{ '--position': 1 }}><img
+                        src="/assets/Itachi.jpg" alt="Bonkers" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8f083affaa4f6976fd08/bankai')} className="item" style={{ '--position': 2 }}><img src="/assets/Bankai.jpg" alt="" /></div>
                     <div onClick={() => navigate('/shop/product/687bd44c680944911aa08627/puffer-jacket')} className="item" style={{ '--position': 3 }}><img src="/assets/download (2).jpeg" alt="" /></div>
                     <div onClick={() => navigate('/shop/product/687bd4e5680944911aa08630/parada')} className="item" style={{ '--position': 4 }}><img src="/assets/download (3).jpeg" alt="" /></div>
                     <div onClick={() => navigate('/shop/product/687bd473680944911aa0862a/north-face-jacket')} className="item" style={{ '--position': 5 }}><img src="/assets/download.jpeg" alt="" /></div>
