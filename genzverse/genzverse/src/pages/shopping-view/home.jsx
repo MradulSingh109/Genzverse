@@ -23,10 +23,8 @@ function ShoppingHome() {
                     <div onClick={() => navigate('/shop/product/689b8e143affaa4f6976fcf4/asthetic-1')} className="item" style={{ '--position': 7 }}><img src="/assets/asthetic 1.jpg" alt="" />
                     </div>
                     <div onClick={() => navigate('/shop/product/689b8e573affaa4f6976fcf7/aesthetic-2')} className="item" style={{ '--position': 8 }}><img src="/assets/asthetic 2.jpg" alt="" /></div>
-                    <div onClick={() => navigate('/shop/product/687bd517680944911aa08633/luxury')} className="item" style={{ '--position': 9 }}><img
-                        src="/assets/T-Shirt Design Ads for Social Media _ Fashion Branding - Sonoj ray.jpeg" alt="" /></div>
-                    <div onClick={() => navigate('/shop/product/687bd52d680944911aa08636/hoodie')} className="item" style={{ '--position': 10 }}><img src="/assets/Winter Hoddie Social Media post design.jpeg"
-                        alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8eb13affaa4f6976fd02/haikyu-')} className="item" style={{ '--position': 9 }}><img src="/assets/haikyu.jpg" alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8f593affaa4f6976fd0e/pagani')} className="item" style={{ '--position': 10 }}><img src="/assets/pagani.jpg" alt="" /></div>
                 </div>
                 <div className="content">
                     <h1 data-content="GENZVERSE">
@@ -40,24 +38,24 @@ function ShoppingHome() {
 
             <div className=' p-4'>
                 <div className='text-3xl font-bold lg:ml-10'>
-                    Our Best Sellers
+                    Cars
                 </div>
             </div>
             <div className="flex flex-col md:flex-row justify-center items-start gap-4  p-4 md:p-10">
-                <div onClick={() => navigate('/shop/product/687ba5db726ec84942a5d857/jacket')} className='overflow-hidden w-full md:w-2/3'>
+                <div onClick={() => navigate('/shop/product/689b8fa43affaa4f6976fd11/porsche-911')} className='overflow-hidden w-full md:w-2/3'>
                     <img className='w-full h-auto md:h-[800px] lg:h-[1300px] object-cover transition-transform duration-300 hover:scale-101 hover:cursor-pointer'
-                        src="/assets/JPEG.jpeg" alt="Jacket" />
+                        src="/assets/porsche.jpg" alt="Jacket" />
                 </div>
                 <div className='w-full md:w-1/3 flex flex-row md:flex-col justify-start items-center gap-4'>
-                    <div onClick={() => navigate('/shop/product/687bd44c680944911aa08627/puffer-jacket')} className='overflow-hidden hover:cursor-pointer hover:underline w-full'>
-                        <img className='w-full h-auto object-cover transition-transform duration-300 hover:scale-101' src="/assets/download (2).jpeg" alt="Puffer Jacket" />
+                    <div onClick={() => navigate('/shop/product/689b8f593affaa4f6976fd0e/pagani')} className='overflow-hidden hover:cursor-pointer hover:underline w-full'>
+                        <img className='w-full h-auto object-cover transition-transform duration-300 hover:scale-101' src="/assets/pagani.jpg" alt="Puffer Jacket" />
                         <div className='text-sm font-bold hover:underline block mt-2 sm:text-lg'>
-                            Jacket
+                            Pagani
                         </div>
                     </div>
-                    <div onClick={() => navigate('/shop/product/687bd4e5680944911aa08630/parada')} className='overflow-hidden hover:cursor-pointer hover:underline w-full'>
-                        <img className='w-full h-auto object-cover transition-transform duration-300 hover:scale-101' src="/assets/download (3).jpeg" alt="Parada" />
-                        <div className='text-sm font-bold hover:underline block mt-2 sm:text-lg'>Parada</div>
+                    <div onClick={() => navigate('/shop/product/689b8fd63affaa4f6976fd14/diablo')} className='overflow-hidden hover:cursor-pointer hover:underline w-full'>
+                        <img className='w-full h-auto object-cover transition-transform duration-300 hover:scale-101' src="/assets/diablo.jpg" alt="Parada" />
+                        <div className='text-sm font-bold hover:underline block mt-2 sm:text-lg'>Diablo</div>
                     </div>
                 </div>
             </div>
