@@ -15,7 +15,7 @@ function FeaturedProduct() {
     const [selectedSize, setSelectedSize] = useState(null);
 
     useEffect(() => {
-        dispatch(fetchProductDetails("687ba184726ec84942a5d816"));
+        dispatch(fetchProductDetails("689b8f593affaa4f6976fd0e"));
     }, [dispatch]);
 
     if (isLoading || !productDetails) {
@@ -112,7 +112,7 @@ function FeaturedProduct() {
                     )}
                 </div> */}
 
-                <div className="mt-6">
+                {/* <div className="mt-6">
                     <h3 className="text-lg font-semibold">Select Size</h3>
                     <div className="flex gap-2 mt-2">
                         {['xs', 's', 'm', 'l', 'xl'].map((size) => (
@@ -132,7 +132,7 @@ function FeaturedProduct() {
                             </button>
                         ))}
                     </div>
-                </div>
+                </div> */}
                 <div>
                     {
                         productDetails?.stock === 0 ? <button
