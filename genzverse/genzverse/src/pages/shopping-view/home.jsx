@@ -16,13 +16,13 @@ function ShoppingHome() {
                     <div onClick={() => navigate('/shop/product/689b8ed83affaa4f6976fd05/itachi')} className="item" style={{ '--position': 1 }}><img
                         src="/assets/Itachi.jpg" alt="Bonkers" /></div>
                     <div onClick={() => navigate('/shop/product/689b8f083affaa4f6976fd08/bankai')} className="item" style={{ '--position': 2 }}><img src="/assets/Bankai.jpg" alt="" /></div>
-                    <div onClick={() => navigate('/shop/product/687bd44c680944911aa08627/puffer-jacket')} className="item" style={{ '--position': 3 }}><img src="/assets/download (2).jpeg" alt="" /></div>
-                    <div onClick={() => navigate('/shop/product/687bd4e5680944911aa08630/parada')} className="item" style={{ '--position': 4 }}><img src="/assets/download (3).jpeg" alt="" /></div>
-                    <div onClick={() => navigate('/shop/product/687bd473680944911aa0862a/north-face-jacket')} className="item" style={{ '--position': 5 }}><img src="/assets/download.jpeg" alt="" /></div>
-                    <div onClick={() => navigate('/shop/product/687ba5db726ec84942a5d857/jacket')} className="item" style={{ '--position': 6 }}><img src="/assets/JPEG.jpeg" alt="" /></div>
-                    <div onClick={() => navigate('/shop/product/687bd492680944911aa0862d/ninja')} className="item" style={{ '--position': 7 }}><img src="/assets/No_ 321_ Journey Of The Ronin_.jpeg" alt="" />
+                    <div onClick={() => navigate('/shop/product/689b8f333affaa4f6976fd0b/blue-lock')} className="item" style={{ '--position': 3 }}><img src="/assets/Blue lock.jpg" alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8f593affaa4f6976fd0e/pagani')} className="item" style={{ '--position': 4 }}><img src="/assets/pagani.jpg" alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8fa43affaa4f6976fd11/porsche-911')} className="item" style={{ '--position': 5 }}><img src="/assets/porsche.jpg" alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8fd63affaa4f6976fd14/diablo')} className="item" style={{ '--position': 6 }}><img src="/assets/diablo.jpg" alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8e143affaa4f6976fcf4/asthetic-1')} className="item" style={{ '--position': 7 }}><img src="/assets/asthetic 1.jpg" alt="" />
                     </div>
-                    <div onClick={() => navigate('/shop/product/687bd2e5eca455b996225160/essentials')} className="item" style={{ '--position': 8 }}><img src="/assets/poster essentials.jpeg" alt="" /></div>
+                    <div onClick={() => navigate('/shop/product/689b8e573affaa4f6976fcf7/aesthetic-2')} className="item" style={{ '--position': 8 }}><img src="/assets/asthetic 2.jpg" alt="" /></div>
                     <div onClick={() => navigate('/shop/product/687bd517680944911aa08633/luxury')} className="item" style={{ '--position': 9 }}><img
                         src="/assets/T-Shirt Design Ads for Social Media _ Fashion Branding - Sonoj ray.jpeg" alt="" /></div>
                     <div onClick={() => navigate('/shop/product/687bd52d680944911aa08636/hoodie')} className="item" style={{ '--position': 10 }}><img src="/assets/Winter Hoddie Social Media post design.jpeg"
